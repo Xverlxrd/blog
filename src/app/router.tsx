@@ -1,6 +1,6 @@
 import {createBrowserRouter} from "react-router";
 import {lazy} from "react";
-import App from "@/app/App.tsx";
+import App from "@/app/app.tsx";
 
 const Login = lazy(() => import("@/features/auth/login.tsx"))
 const Register = lazy(() => import("@/features/auth/register.tsx"))
